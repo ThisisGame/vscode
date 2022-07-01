@@ -1,0 +1,43 @@
+{
+  "name": "luac",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "1.0.0",
+  "publisher": "vscode",
+  "license": "MIT",
+  "engines": {
+    "vscode": "*"
+  },
+  "scripts": {
+    "update-grammar": "node ../node_modules/vscode-grammar-updater/bin sumneko/lua.tmbundle Syntaxes/Lua.plist ./syntaxes/luac.tmLanguage.json"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "luac",
+        "extensions": [
+          ".luac"
+        ],
+        "aliases": [
+          "Luac",
+          "luac"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "luac",
+        "scopeName": "source.luac",
+        "path": "./syntaxes/luac.tmLanguage.json",
+        "tokenTypes": {
+          "comment.line.double-dash.doc.luac": "other"
+        }
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode.git"
+  }
+}

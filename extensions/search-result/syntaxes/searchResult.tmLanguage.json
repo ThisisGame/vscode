@@ -162,6 +162,9 @@
     {
       "include": "#lua"
     },
+		{
+      "include": "#luac"
+    },
     {
       "include": "#m"
     },

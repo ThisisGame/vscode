@@ -150,6 +150,7 @@ export const config = {
 			'Groovy script': 'groovy',
 			'Makefile': ['makefile', 'mk'],
 			'Lua script': 'lua',
+			'Luac script': 'luac',
 			'Pug document': 'pug',
 			'Jupyter': 'ipynb',
 			'Lockfile': 'lock',

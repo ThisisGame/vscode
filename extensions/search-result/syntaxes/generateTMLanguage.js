@@ -34,6 +34,7 @@ const mappings = [
 	['less', 'source.css.less'],
 	['log', 'text.log'],
 	['lua', 'source.lua'],
+	['luac', 'source.luac'],
 	['m', 'source.objc'],
 	['makefile', 'source.makefile', '(?:makefile|Makefile)(?:\\..*)?'],
 	['md', 'text.html.markdown'],

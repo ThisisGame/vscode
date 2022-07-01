@@ -45,6 +45,7 @@ const compilations = [
 	'github/tsconfig.json',
 	'grunt/tsconfig.json',
 	'gulp/tsconfig.json',
+	'helloworld/tsconfig.json',
 	'html-language-features/client/tsconfig.json',
 	'html-language-features/server/tsconfig.json',
 	'image-preview/tsconfig.json',

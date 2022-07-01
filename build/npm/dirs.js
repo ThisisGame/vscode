@@ -21,6 +21,7 @@ exports.dirs = [
 	'extensions/github-authentication',
 	'extensions/grunt',
 	'extensions/gulp',
+	'extensions/helloworld',
 	'extensions/html-language-features',
 	'extensions/html-language-features/server',
 	'extensions/image-preview',
